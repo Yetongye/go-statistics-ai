@@ -10,22 +10,22 @@ There were three key features I found particularly helpful:
 
 1. **Inline Documentation Suggestions**: When I typed `//` followed by a short phrase, Copilot generated complete and readable comments that improved the clarity of my code. This was especially useful for making the logic understandable to other readers.
 
-<img src="copilot1.png" alt="copilot1" width="200"/>
+<img src="copilot1.png" alt="copilot1" width="400"/>
 
 2. **Debugging Guidance**: When bugs appeared, clicking on the highlighted error in VS Code often triggered Copilot to offer meaningful suggestions for fixes. This streamlined the debugging process significantly and reduced the time spent resolving issues.
 
-<img src="copilot3.png" alt="copilot3" width="200"/>
-<img src="copilot4.png" alt="copilot4" width="200"/>
+<img src="copilot3.png" alt="copilot3" width="500"/>
+<img src="copilot4.png" alt="copilot4" width="500"/>
 
 3. **Code Autocompletion for Task-Specific Comments**: For example, when I typed `// Define the Anscombe Quartet datasets.`, Copilot automatically generated a relevant block of code that matched the intended purpose. This was particularly useful for repetitive or boilerplate sections of the program.
 
-<img src="copilot2.png" alt="copilot2" width="200"/>
+<img src="copilot2.png" alt="copilot2" width="500"/>
 
 Overall, Copilot served as an effective assistant for enhancing code readability, reducing manual work, and accelerating common development tasks. It was especially valuable in scenarios where the logic was already known and needed to be translated into Go syntax efficiently.
 
 ## 2. AI-Generated Code
 
-To evaluate the capabilities of large language models (LLMs) in generating Go code, I used ChatGPT (https://chat.openai.com/) to prompt the full implementation of linear regression analysis on the Anscombe Quartet. The full conversation and results are documented in the file [`ChatGPT-Go Anscombe Regression Analysis.pdf`](ChatGPT-Go Anscombe Regression Analysis.pdf).
+To evaluate the capabilities of large language models (LLMs) in generating Go code, I used ChatGPT (https://chat.openai.com/) to prompt the full implementation of linear regression analysis on the Anscombe Quartet. The full conversation and results are documented in the file [Download ChatGPT-Go Anscombe Regression Analysis (PDF)](./ChatGPT-Go%20Anscombe%20Regression%20Analysis.pdf)
 
 ### Prompting Strategy
 
@@ -45,8 +45,8 @@ Although the generated Go code was mostly correct, there was a bug in the plotti
 
 Interestingly, GitHub Copilot helped solve this issue more efficiently than ChatGPT. Because Copilot was embedded in my VS Code environment, it had full visibility of my import statements and Go module versions. Copilot immediately suggested the correct syntax (`p := plot.New()`), which resolved the issue.
 
-<img src="copilot6.png" alt="copilot6" width="200"/>
-<img src="copilot7.png" alt="copilot7" width="200"/>
+<img src="coilot6.png" alt="copilot6" width="500"/>
+<img src="copliot7.png" alt="copilot7" width="500"/>
 
 
 ### Summary of Results
